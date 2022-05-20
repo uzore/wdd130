@@ -1,4 +1,4 @@
-<body><div id="content">div {
+body div {
     max-width: 1600px;
     margin: 0 auto;
     padding: 4em;
@@ -9,37 +9,41 @@
 img {
     display: block;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 800px;
     text-align: center;
 }
 
+background {
+    height: 725px;
+}
 
-}
-#background {
+background {
     height: 725px;
 }
-#background {
-    height: 725px;
-}
+
 body {
     background-color: #fcfbfb;
 }
+
 header {
     background-color: rgba(20, 30, 13, .7);
 }
+
 nav a:hover {
     background-color: black;
 }
+
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
 }
+
 .icon {
     width: 80px;
 }
+
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
 }
-<header></footer></div></body>
