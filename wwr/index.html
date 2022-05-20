@@ -22,6 +22,81 @@
             text-align: center;
         }
         
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: var(--heading-fo color: var(--headline-color-o
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        hr {
+            height: 3px;
+            margin: 35px 0;
+            background: var(--accent1-col
+        }
+        
+        header {
+            padding: 1em;
+            text-align: center;
+            color: var(--paragraph-color- background-color: var(--parag
+        }
+        
+        header>h1, header>h2 {
+            color: var(--headline-color-o
+        }
+        
+        p {
+            font-family: var(--paragraph- color: var(--paragraph-color) padding: 1em;
+        }
+        
+        .colors {
+            width: 100%;
+            min-width: 350px;
+            margin: 30px auto;
+            text-align: center;
+        }
+        
+        .colors th {
+            background-color: #999;
+        }
+        
+        .colors td {
+            width: 25%;
+            height: 3em;
+        }
+        
+        .primary {
+            background-color: var(--prima
+        }
+        
+        .secondary {
+            background-color: var(--secon
+        }
+        
+        .accent1 {
+            background-color: var(--accen
+        }
+        
+        .accent2 {
+            background-color: var(--accen
+        }
+        
+        p.colored {
+            background-color: var(--parag color: var(--paragraph-color-
+        }
+        
+        nav {
+            background-color: var(--nav-b line-height: 3em;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        
         nav {
             list-style-type: none;
             display: flex;
@@ -34,14 +109,23 @@
             padding: 10px;
         }
         
-        nav a:link,
-        nav a:visited {
+        nav a:link, nav a:visited {
             color: var(--nav-link-color);
         }
         
         nav a:hover {
-            color: var(--nav-hover-link-color);
-            background-color: var(--nav-hover-background-color);
+            color: var(--nav-hover-link-c background-color: var(--nav-h
+        }
+        
+        .sitemap {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat grid-template-rows: 3em 1.5em grid-template-areas: ". . hom
+
+        }
+        
+        .sitemap>div {
+            text-align: center;
         }
         
         .sm-home {
@@ -65,6 +149,18 @@
         .top {
             grid-area: top;
             border-left: 1px solid;
+        }
+        
+        .left {
+            grid-area: left;
+            border-top: 1px solid;
+            border-left: 1px solid;
+        }
+        
+        .right {
+            grid-area: right;
+            border-top: 1px solid;
+            border-right: 1px solid;
         }
     </style>
 </head>
