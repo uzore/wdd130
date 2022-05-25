@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 body {
     padding: 1em;
     text-align: center;
     color: #8d541b;
+    font-family: 'Rock Salt', 'Roboto', 'Bradley', sans-serif;
 }
 
-div {
+.home-title {
+    font-family: 'Rock Salt', 'Roboto', 'Bradley', sans-serif;
+}
+
+.logo {
+    width: 100%;
+    overflow: hidden;
+}
+
+.content {
     max-width: 1600;
     margin: 0 auto;
 }
@@ -25,6 +36,8 @@ nav a :hover {
 
 main {
     text-align: center;
+    width: 100%;
+    overflow: hidden;
 }
 
 .icon {
@@ -33,7 +46,6 @@ main {
 
 header {
     text-align: center;
-    margin: 0 auto;
     padding: 1em;
 }
 
@@ -60,4 +72,16 @@ h2 {
 
 h3 {
     color: white;
+}
+
+.social img {
+    height: 35px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {}
+
+.social {
+    text-align: center;
 }
