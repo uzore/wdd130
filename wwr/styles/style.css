@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 body {
-    padding: 1em;
     text-align: center;
     color: #8d541b;
     font-family: Courier New, monospace, Arial, sans-serif;
     font: size 12px;
     margin: 0;
-    padding: 0;
 }
 
 .home-title {
@@ -125,5 +123,9 @@ h3 {
 @media screen and (max-width: 700px) {}
 
 .social {
+    text-align: center;
+}
+
+social {
     text-align: center;
 }
