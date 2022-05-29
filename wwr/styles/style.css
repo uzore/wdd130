@@ -9,8 +9,13 @@ body {
 
 .home-title {
     font-family: 'Rock Salt', 'Roboto', 'Bradley', sans-serif;
-    font-size: 2em;
+    font-size: 2.5em;
     margin-top: 1px;
+}
+
+.hero {
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .logo {
@@ -119,8 +124,6 @@ h3 {
     cursor: pointer;
     padding-top: 15px;
 }
-
-@media screen and (max-width: 700px) {}
 
 .social {
     text-align: center;
