@@ -245,9 +245,8 @@
 }
 
 
-}
-
 /* Do not make any changes below here */
+
 .activity {
     width: 70%;
     margin: 20px auto;
@@ -257,6 +256,7 @@
     clear: both;
     overflow: auto;
 }
+
 .hint {
     border: 1px solid grey;
     background: #e0e0e0;
@@ -264,15 +264,19 @@
     position: relative;
     margin: 1em 0;
 }
+
 .hint h3 {
     margin: 0;
 }
+
 .hint:hover {
     background: #d0d0d0;
 }
+
 .hint>div {
     display: none;
 }
+
 .hint input[type=checkbox] {
     position: absolute;
     width: 100%;
@@ -281,9 +285,11 @@
     z-index: 1;
     cursor: pointer;
 }
+
 .hint input[type=checkbox]:checked~div {
     display: block;
 }
+
 .hint i {
     position: absolute;
     transform: translate(-6px, 0);
@@ -291,6 +297,7 @@
     right: 10px;
     top: -3px;
 }
+
 .hint i:before,
 .hint i:after {
     content: "";
@@ -299,18 +306,23 @@
     width: 3px;
     height: 9px;
 }
+
 .hint i:before {
     transform: translate(2px, 0) rotate(45deg);
 }
+
 .hint i:after {
     transform: translate(-2px, 0) rotate(-45deg);
 }
+
 .hint input[type=checkbox]:checked~i:before {
     transform: translate(-2px, 0) rotate(45deg);
 }
+
 .hint input[type=checkbox]:checked~i:after {
     transform: translate(2px, 0) rotate(-45deg);
 }
+
 .hint a {
     position: relative;
     z-index: 1;
