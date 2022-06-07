@@ -21,7 +21,7 @@ header {
 .home-title {
     font-family: 'Rock Salt', 'Roboto', 'Bradley', sans-serif;
     font-size: 2.5em;
-    margin-top: 100px;
+    margin-top: 200px;
     color: #8d541b;
 }
 
@@ -118,7 +118,7 @@ nav a :hover {
     text-align: center;
     border: 10px solid #8d541b;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #79633f;
+    box-shadow: 5px 5px 10px #e6a43b;
 }
 
 .card-img:hover {
@@ -248,7 +248,7 @@ h3 {
     }
     .home-title {
         font-size: 25px;
-        color: #d87e2f;
+        color: #9f520eea;
     }
     .rivers-card,
     .camping-card,
