@@ -182,13 +182,13 @@ nav a {
 
 footer {
     margin-top: 15px;
-    background-color: #8d541b;
+    background-color: #080420;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: rgb(252, 240, 225);
+    color: rgb(236, 224, 55);
 }
 
 footer h3 {
