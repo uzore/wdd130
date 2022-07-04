@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title> Contact Us</title>
+</head>
+
+<body class="logged-in env-production page-responsive" style="word-wrap: break-word;" data-new-gr-c-s-loaded="14.1062.0> 
+        <div id=" content ">
+            <header>
+            <a id="logo link " href="index.html ">
+                <img class="logo " src="images/Adve.png " alt="Adventurers Logo " </a>
+                <nav>
+                    <a href="index.html ">Home</a>
+                    <a href="# ">Page 2</a>
+                    <a href="site-plan-rafting.html ">Site Plan</a>
+                    <a href="Contactus.html ">Contact Us</a>
+                </nav>
+            </header 
+        </div>
+        <div id = " feedback ">
+
+         </div>  
+         <form action="/my-handling-form-page " method="post ">
+            <ul>
+             <li>
+               <label for="name ">Name:</label>
+               <input type="text " id="name " name="user_name " />
+             </li>
+             <li>
+               <label for="mail ">E-mail:</label>
+               <input type="email " id="mail " name="user_email " />
+             </li>
+             <li>
+               <label for="msg ">Message:</label>
+               <textarea id="msg " name="user_message "></textarea>
+             </li>
+             <li class=" button ">
+                    <button type=" submit "> Send Your Message </button>
+             </li>
+           </form>
+           
+
+           
+    <footer>
+        <h3>&copy; 2022 Adventurers Inc.</h3>
+        <h3><a href="site-plan-rafting.html ">Site Plan</a></h3>
+        <h3><a href="contact.html ">Contact Us</a></h3>
+        `
+        <div class="social ">
+            <a href="https://facebook.com "><img src="images/facebook.png " alt="fb icon "> </a>
+            <a href="https://twitter.com "><img src="images/twitter.png " alt="twitter icon "> </a>
+            <a href="https://instagram.com "><img src="images/instagram.png " alt="instagram icon "> </a>
+        </div>
+        ` </footer>
+    </div>
+</body>
+<script>
+    // get the feedback div element so we can do something with it.
+    const feedbackElement = document.getElementById('feedback');
+    // get the form so we can read what was entered in it.
+    const formElement = document.forms[0];
+    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+    formElement.addEventListener('submit', function(e) {
+        // stop the form from doing the default action.
+        e.preventDefault();
+        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        // make the feedback element visible.
+        feedbackElement.style.display = "block ";
+        // add a class to move everything down so our message doesn't cover it.
+        document.body.classList.toggle('moveDown');
+    });
+</script>
+
+</html>
