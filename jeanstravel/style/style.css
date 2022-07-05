@@ -244,7 +244,7 @@ nav a {
 .rivers-card,
 .camping-card,
 .rapids-card {
-    margin: 10px;
+    margin: 2px;
     font-size: 12px;
 }
 
@@ -262,7 +262,7 @@ nav a {
 footer {
     margin-top: 3px;
     background-color: #ffffff;
-    padding: 5px 10px;
+    padding: 5px 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -333,7 +333,7 @@ h3 {
     .camping-card,
     .rapids-card {
         margin: 5px auto;
-        width: 100%;
+        width: 700px;
     }
     #background {
         display: none;
