@@ -302,7 +302,7 @@ h3 {
     text-align: center;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
     #hero,
     .home-grid {
         display: block;
@@ -314,7 +314,7 @@ h3 {
     }
     nav a {
         display: block;
-        padding: 15px;
+        padding: 5px;
     }
     #hero {
         margin-top: 0;
@@ -332,7 +332,7 @@ h3 {
     .rivers-card,
     .camping-card,
     .rapids-card {
-        margin: 50px auto;
+        margin: 5px auto;
         width: 100%;
         height: 100vh
     }
@@ -346,6 +346,6 @@ h3 {
         margin: 0 auto;
     }
     footer {
-        margin-top: 25px;
+        margin-top: 5px;
     }
 }
