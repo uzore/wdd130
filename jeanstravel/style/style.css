@@ -4,7 +4,7 @@ body {
     color: #05061e;
     font-family: Courier New, monospace, Arial, sans-serif;
     font: size 12px;
-    margin: 10;
+    margin: 5px;
 }
 
 #content {
@@ -237,14 +237,14 @@ nav a {
     text-align: center;
     color: #05061e;
     text-decoration: none;
-    padding: 5px;
+    padding: 2px;
     font-size: 12px;
 }
 
 .rivers-card,
 .camping-card,
 .rapids-card {
-    margin: 50px;
+    margin: 10px;
     font-size: 12px;
 }
 
@@ -254,20 +254,20 @@ nav a {
     color: rgb(247, 246, 246);
     text-decoration: none;
     padding: 6px, 12px;
-    margin-top: 10px;
+    margin-top: 100px;
     font-size: 13px;
     border-radius: 3px;
 }
 
 footer {
-    margin-top: 50px;
+    margin-top: 3px;
     background-color: #ffffff;
-    padding: 25px 50px;
-    margin-top: 50px;
+    padding: 5px 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: #05061e;
+    font-size: 12px;
 }
 
 footer h3 {
@@ -279,7 +279,7 @@ footer a {
 }
 
 footer a:hover {
-    color: rgb(252, 240, 225);
+    color: rgb(98, 200, 213);
 }
 
 h2 {
