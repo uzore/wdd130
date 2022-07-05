@@ -167,6 +167,12 @@ button {
     text-align: center;
 }
 
+.logo2 {
+    width: 25%;
+    overflow: hidden;
+    text-align: right;
+}
+
 #logo_link {
     padding-top: 5px;
     align-self: center;
