@@ -23,36 +23,39 @@
                 </nav>
             </header 
         </div>
-        <div class="container ">
-            <form action="action_page.php ">
-        
-                <label for="fname ">First Name</label>
-                <input type="text " id="fname " name="firstname " placeholder="Your name.. ">
-                <br>
-        
-                <label for="lname ">Last Name</label>
-                <input type="text " id="lname " name="lastname " placeholder="Your last name.. ">
-                <br>
-                <br>
-        
-                <label for="country ">Country</label>
-                <select id="country " name="country ">
-                <option value="australia ">Nigeria</option>
+    </div>
+    <div id = " feedback ">
+
+    </div>  
+     <form action="/my-handling-form-page " method="post ">
+        <ul>
+         <li>
+           <label for="name ">Name:</label>
+           <input type="text " id="name " name="user_name " />
+         </li>
+         <li>
+           <label for="mail ">E-mail:</label>
+           <input type="email " id="mail " name="user_email " />
+         </li>
+         <li>
+           <label for="msg ">Message:</label>
+           <textarea id="msg " name="user_message "></textarea>
+         </li>
+         <li>
+            <label for="country ">Country</label>
+            <select id="country " name="country ">
+                <option value="australia ">Australia</option>
                 <option value="canada ">Canada</option>
                 <option value="usa ">USA</option>
-                <option value="usa ">Australia</option>
-                <option value="usa ">Ghana</option>
-              </select>
-              <br>
-              <br>
-              <label for="subject ">Subject</label>
-              <textarea id="subject " name="subject " placeholder="Write something.. " style="height:200px "></textarea>
-              <br>
-              <br>
-              <input type="submit " value=" Submit ">
-        
-            </form>
-        </div>
+            </select>
+
+         </li>
+         <li class=" button ">
+                <button type=" submit "> Send Your Message </button>
+         </li>
+       </form>
+       
+    </div>
     <footer>
         <h3>
             <P> &copy; 2022 JeansTravel&Logistics. <br> Services rendered by Jeansvon Investments Limited.</P>
