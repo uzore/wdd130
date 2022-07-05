@@ -110,6 +110,23 @@ button {
     margin-left: .5em;
 }
 
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(252, 197, 18);
+    border: 2px solid rgb(6, 3, 16);
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid rgb(6, 3, 16);
+    background: rgb(252, 197, 18);
+    transition: 1s;
+}
+
 #hero-msg h4 {
     color: #f7f4f0;
 }
