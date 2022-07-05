@@ -333,7 +333,7 @@ h3 {
     .camping-card,
     .rapids-card {
         margin: 5px auto;
-        max-width: auto;
+        max-width: 400px;
     }
     #background {
         display: none;
