@@ -302,7 +302,7 @@ h3 {
     text-align: center;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     #hero,
     .home-grid {
         display: block;
@@ -333,7 +333,7 @@ h3 {
     .camping-card,
     .rapids-card {
         margin: 5px auto;
-        width: 700px;
+        max-width: 750px;
     }
     #background {
         display: none;
