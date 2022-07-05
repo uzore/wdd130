@@ -42,8 +42,8 @@ body {
 img {
     display: block;
     margin: 0 auto;
-    max-width: 1600px;
-    text-align: left;
+    max-width: 800px;
+    text-align: center;
 }
 
 h1,
